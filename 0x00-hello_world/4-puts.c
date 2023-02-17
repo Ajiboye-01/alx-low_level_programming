@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - enrty point
  * This is the begining of my code
  */
