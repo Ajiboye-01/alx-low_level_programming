@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - enrty point
- * return - returns 0 if the code is a success
+ * Return - returns 0 if the code is a success
  * This is the begining of my code
  */
 
