@@ -12,6 +12,6 @@ int main(void)
 
 	for (p = 0; p < 0; p++)
 	printf("%i", p);
-	putchar("\n");
+	printf("\n");
 	return (0);
 }
