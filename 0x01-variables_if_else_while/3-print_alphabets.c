@@ -15,7 +15,7 @@ int main(void)
 	putchar("\n");
 
 	for (ra = "A"; ra <= "Z"; ra++)
-	putchar(ta);
+	putchar(ra);
 	putchar("\n");
 
 	return (0);
