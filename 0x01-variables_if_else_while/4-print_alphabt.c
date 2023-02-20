@@ -9,12 +9,12 @@
  */
 int main(void)
 {
-	char do;
+	char d;
 	
-	for (do = "a"; do <= "z"; do++)
+	for (d = "a"; d <= "z"; d++)
 	{
-	if (do != q & do != e)
-	putchar(do)
+	if (d != q && d != e)
+	putchar(d)
 	}
 	putchar("\n")
 	return (0);
