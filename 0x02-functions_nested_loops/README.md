@@ -1,1 +1,1 @@
-0x02. C - Functions, nested loops
+this is nested loop for c
