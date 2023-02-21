@@ -1,14 +1,18 @@
 #include "main.h"
 /**
- * main - this is the Entry point
- *
- * Return: returns 0 is successful
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	int _putchar(char _putchar);
+	char abe[] = "_putchar";
 
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-	return (0);
+		_putchar(abe[c]);
 	}
+	_putchar('\n');
+	return (0);
 }
