@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * _isalpha: Entry point
  * Return: always 0
  */
