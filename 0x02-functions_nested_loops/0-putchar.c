@@ -11,4 +11,5 @@ int main(void)
 
 	if (p <= 0)
 	_putchar(a);
+	return (0);
 }
