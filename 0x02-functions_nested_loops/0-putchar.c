@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	char *sh = "Holberton";
+	char abe[] = "_putchar";
 
-	while (*sh)
+	int c;
+
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(abe[c]);
 	}
 	_putchar('\n');
-
 	return (0);
 }
