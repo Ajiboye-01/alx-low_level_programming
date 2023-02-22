@@ -2,6 +2,8 @@
 /**
  * main - Entry point
  *
+ * print_alphabet - Entry point
+ *
  * Return: returns 0 if success
  */
 void print_alphabet(void)
