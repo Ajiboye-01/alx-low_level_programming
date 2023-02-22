@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * c: the character in concern
+ * @c: the character in concern
+ * 
  * _isalpha: Entry point
  * Return: always 0
  */
