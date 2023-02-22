@@ -7,10 +7,14 @@
  */
 int main(void)
 {
-	int a = 0;
-	char p = "_putchar";
+	char *sh = "Holberton";
 
-	if(a <= 0)
-	_putchar(p);
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
