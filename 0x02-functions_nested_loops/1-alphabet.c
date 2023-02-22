@@ -4,11 +4,11 @@
  *
  * Return: returns 0 if success
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
 	char p = "a";
 
 	for (; p <= "z"; p++)
 	_putchar(p);
+	_putchar("\n");
 }
