@@ -12,8 +12,8 @@ void print_most_numbers(void)
 	{
 		if (i != 2 || i != 4)
 		{
-			printf("%i", i);
+			_putchar(i);
 		}
 	}
-	return (0);
+	_putchar("\n");
 }
