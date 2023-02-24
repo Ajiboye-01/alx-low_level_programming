@@ -15,5 +15,5 @@ void print_most_numbers(void)
 			printf("%i", i);
 		}
 	}
-	printf("\n");
+	return (0);
 }
