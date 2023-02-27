@@ -1,17 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - print number from 0 (Entry point)
- *
- * Return: returns 0 if success
- */
+* main - Print all single digit numbers using only putchar
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int p;
+	int digit;
 
-	for (p = 0; p < 10; p++)
-	_putchar(p);
-	_putchar("\n");
+	for (digit = 0; digit < 10; digit++)
+	putchar(digit + '0');
+
+	putchar('\n');
+
 	return (0);
 }
